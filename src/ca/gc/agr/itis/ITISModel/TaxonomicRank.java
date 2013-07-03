@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class TaxonomicRank {
 	
-	private int tsn;
+	private String tsn;
 	private String rankName;  // i.e. Kingdom
 	private String rankValue; // i.e. Animalia
 	private Map<String, List<String>> commonNames;
@@ -18,10 +18,10 @@ public class TaxonomicRank {
 	
 	
 	
-	public int getTsn() {
+	public String getTsn() {
 		return tsn;
 	}
-	public void setTsn(int tsn) {
+	public void setTsn(String tsn) {
 		this.tsn = tsn;
 	}
 
