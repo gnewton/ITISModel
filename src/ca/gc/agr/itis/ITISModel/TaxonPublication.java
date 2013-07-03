@@ -3,6 +3,7 @@ package ca.gc.agr.itis.ITISModel;
 public class TaxonPublication {
 
 	private String referenceAuthor;
+	private String title;
 	private String pubYear;
 	private String pubName;
 	private String publisher;
@@ -11,6 +12,13 @@ public class TaxonPublication {
 	private String isbn;
 	private String pubComment;
 	
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
 	public String getReferenceAuthor() {
 		return referenceAuthor;
 	}
